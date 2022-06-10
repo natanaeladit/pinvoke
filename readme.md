@@ -7,7 +7,7 @@ mkdir build && cd build && cmake .. && make
 # Build console
 
 ```
-dotnet build && otnet publish -c Release -o ./build/lib
+dotnet build && dotnet publish -c Release -o ./build/lib
 ```
 
 # Run console
