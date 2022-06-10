@@ -13,12 +13,13 @@ mkdir build && cd build && cmake .. && make
 # Build console
 
 ```
+cd ..
 dotnet build && dotnet publish -c Release -o ./build/lib
 ```
 
 # Run console
 
 ```
-cd lib
+cd build/lib
 ./pinvoke
 ```
