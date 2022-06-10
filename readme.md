@@ -1,3 +1,9 @@
+# Prerequisite
+
+1. Linux
+2. CMake
+3. Net 6 SDK
+
 # Build shared lib
 
 ```
